@@ -1,0 +1,2 @@
+memory=cn.iris.cloud.common.status.support.MemoryStatusChecker
+load=cn.iris.cloud.common.status.support.LoadStatusChecker

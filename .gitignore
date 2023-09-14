@@ -1,0 +1,13 @@
+.*
+!.gitignore
+!.editorconfig
+iris.pid
+build
+/refer
+out
+/out
+/config
+/felix-cache
+*.iml
+*.~vsd
+gradlew.bat

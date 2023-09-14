@@ -1,0 +1,3 @@
+rootProject.name = 'iris'
+//iris-boot
+include 'iris-boot:iris-common'

@@ -1,0 +1,2 @@
+direct=cn.iris.cloud.event.DirectEventDispatcher
+parallel=cn.iris.cloud.event.ParallelEventDispatcher

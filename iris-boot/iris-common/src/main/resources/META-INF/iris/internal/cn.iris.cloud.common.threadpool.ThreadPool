@@ -1,0 +1,4 @@
+fixed=cn.iris.cloud.common.threadpool.support.fixed.FixedThreadPool
+cached=cn.iris.cloud.common.threadpool.support.cached.CachedThreadPool
+limited=cn.iris.cloud.common.threadpool.support.limited.LimitedThreadPool
+eager=cn.iris.cloud.common.threadpool.support.eager.EagerThreadPool

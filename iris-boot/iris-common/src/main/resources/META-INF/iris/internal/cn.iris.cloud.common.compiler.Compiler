@@ -1,0 +1,2 @@
+adaptive=cn.iris.cloud.common.compiler.support.AdaptiveCompiler
+jdk=cn.iris.cloud.common.compiler.support.JdkCompiler

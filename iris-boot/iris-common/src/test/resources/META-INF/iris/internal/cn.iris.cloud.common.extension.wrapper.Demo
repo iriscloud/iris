@@ -1,0 +1,4 @@
+demo=cn.iris.cloud.common.extension.wrapper.impl.DemoImpl
+wrapper=cn.iris.cloud.common.extension.wrapper.impl.DemoWrapper
+wrapper2=cn.iris.cloud.common.extension.wrapper.impl.DemoWrapper2
+demo2=cn.iris.cloud.common.extension.wrapper.impl.DemoImpl

@@ -1,0 +1,2 @@
+adaptive=cn.iris.cloud.common.extension.factory.AdaptiveExtensionFactory
+spi=cn.iris.cloud.common.extension.factory.SpiExtensionFactory

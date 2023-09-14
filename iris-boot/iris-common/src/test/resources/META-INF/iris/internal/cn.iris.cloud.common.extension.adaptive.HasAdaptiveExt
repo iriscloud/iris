@@ -1,0 +1,2 @@
+adaptive=cn.iris.cloud.common.extension.adaptive.impl.HasAdaptiveExt_ManualAdaptive
+impl1=cn.iris.cloud.common.extension.adaptive.impl.HasAdaptiveExtImpl1

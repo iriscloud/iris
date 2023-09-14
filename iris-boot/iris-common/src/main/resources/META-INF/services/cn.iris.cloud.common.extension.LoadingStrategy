@@ -1,0 +1,3 @@
+cn.iris.cloud.common.extension.IrisInternalLoadingStrategy
+cn.iris.cloud.common.extension.IrisLoadingStrategy
+cn.iris.cloud.common.extension.ServicesLoadingStrategy

@@ -1,0 +1,6 @@
+group=cn.iris.cloud.common.extension.activate.impl.GroupActivateExtImpl
+value=cn.iris.cloud.common.extension.activate.impl.ValueActivateExtImpl
+order1=cn.iris.cloud.common.extension.activate.impl.OrderActivateExtImpl1
+order2=cn.iris.cloud.common.extension.activate.impl.OrderActivateExtImpl2
+old1=cn.iris.cloud.common.extension.activate.impl.OldActivateExt1Impl2
+old2=cn.iris.cloud.common.extension.activate.impl.OldActivateExt1Impl3
