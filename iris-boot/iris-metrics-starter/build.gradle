@@ -1,0 +1,14 @@
+dependencies {
+
+  api project(':iris-boot:iris-common')
+  api "org.springframework.boot:spring-boot-starter:${springboot_version}"
+  api "io.dropwizard.metrics:metrics-core:${metrics_version}"
+  api "io.dropwizard.metrics:metrics-jvm:${metrics_version}"
+  api "io.dropwizard.metrics:metrics-jmx:${metrics_version}"
+  api "io.prometheus:simpleclient:${prometheus_version}"
+  api "io.prometheus:simpleclient_httpserver:${prometheus_version}"
+  api "io.prometheus:simpleclient_dropwizard:${prometheus_version}"
+  api "io.prometheus.jmx:collector:${jmx_collector_version}"
+
+
+}

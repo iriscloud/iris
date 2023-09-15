@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.iris.cloud.metrics.config.MetricsConfiguration
+
