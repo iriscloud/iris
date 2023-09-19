@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.iris.cloud.spring.CommonAutoConfiguration
+org.springframework.context.ApplicationListener=\
+cn.iris.cloud.spring.starter.LogoApplicationListener
+

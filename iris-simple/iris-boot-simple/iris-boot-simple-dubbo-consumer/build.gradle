@@ -1,0 +1,5 @@
+dependencies {
+  api project(':iris-simple:iris-boot-simple:iris-boot-simple-api')
+  api group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: springboot_version
+
+}

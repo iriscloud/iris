@@ -1,0 +1,21 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: dubbo-rpc-provider
+    group: crp
+    version: 1.0.0
+  profiles:
+    active: ${tenv:dev}
+dubbo:
+  protocols:
+    dubbo-rpc:
+      name: dubbo
+      port: ${PORT:8082}
+  #    letter-rpc:
+  #      name: letter
+  #      port: ${PORT:8083}
+  registry:
+    address: ${REG_URL:zookeeper://127.0.0.1:2181}
+  scan:
+    base-packages: cn.iris.cloud.boot.simple

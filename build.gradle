@@ -68,9 +68,12 @@ subprojects { project ->
 
   }
   configurations {
-    compile.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    all {
+      resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+      exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+      exclude group: 'javax.validation', module: 'com.springsource.javax.validation'
+    }
   }
-
   test {
     useJUnitPlatform {
       includeEngines 'junit-jupiter'

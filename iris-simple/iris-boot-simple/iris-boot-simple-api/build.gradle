@@ -1,0 +1,4 @@
+dependencies {
+  api project(':iris-boot:iris-spring-starter')
+  api project(':iris-boot:iris-dubbo-starter')
+}

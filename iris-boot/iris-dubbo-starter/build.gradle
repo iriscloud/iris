@@ -1,0 +1,7 @@
+dependencies {
+  api project(':iris-boot:iris-spring-starter')
+  api "org.apache.dubbo:dubbo:${dubbo_version}"
+  api "org.apache.dubbo:dubbo-spring-boot-starter:${dubbo_version}"
+  api "org.apache.dubbo:dubbo-registry-zookeeper:${dubbo_version}"
+
+}

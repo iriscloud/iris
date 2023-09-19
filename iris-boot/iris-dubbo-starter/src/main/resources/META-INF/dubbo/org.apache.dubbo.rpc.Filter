@@ -1,0 +1,1 @@
+metrics=cn.iris.cloud.dubbo.rpc.filter.DubboMetricsFilter
