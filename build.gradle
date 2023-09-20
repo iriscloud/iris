@@ -71,7 +71,9 @@ subprojects { project ->
     all {
       resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
       exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
-      exclude group: 'javax.validation', module: 'com.springsource.javax.validation'
+//      exclude group: 'javax.validation', module: 'com.springsource.javax.validation'
+      exclude group: 'ch.qos.logback', module: 'logback-core'
+      exclude group: 'ch.qos.logback', module: 'logback-classic'
     }
   }
   test {

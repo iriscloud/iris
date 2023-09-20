@@ -1,0 +1,22 @@
+services:
+  zk-1:
+    image: zookeeper:3.9
+    restart: always
+    container_name: zk-1
+    hostname: zk-1
+    privileged: true
+    ports:
+      - 2181:2181
+      - 8181:8080
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_SERVERS: server.1=0.0.0.0:2888:3888;2181
+#    volumes:
+#      - ./zk-1/data:/data
+#      - ./zk-1/datalog:/datalog
+#      - ./zk-1/conf:/conf
+    networks:
+      - zk-net
+networks:
+  zk-net:
+    name: zk-net

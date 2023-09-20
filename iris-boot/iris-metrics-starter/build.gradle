@@ -2,6 +2,8 @@ dependencies {
 
   api project(':iris-boot:iris-common')
   api "org.springframework.boot:spring-boot-starter:${springboot_version}"
+  implementation group: 'org.yaml', name: 'snakeyaml', version: snakeyaml_version
+
   api "io.dropwizard.metrics:metrics-core:${metrics_version}"
   api "io.dropwizard.metrics:metrics-jvm:${metrics_version}"
   api "io.dropwizard.metrics:metrics-jmx:${metrics_version}"

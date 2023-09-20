@@ -3,5 +3,8 @@ dependencies {
   api "org.apache.dubbo:dubbo:${dubbo_version}"
   api "org.apache.dubbo:dubbo-spring-boot-starter:${dubbo_version}"
   api "org.apache.dubbo:dubbo-registry-zookeeper:${dubbo_version}"
+  api "org.apache.dubbo:dubbo-remoting-zookeeper-curator5:${dubbo_version}"
+  api group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.9.0'
+
 
 }
