@@ -1,0 +1,19 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: accessconnect
+    version: 1.0.0
+  profiles:
+    active: ${tenv:dev}
+dubbo:
+  registry:
+    address: ${REG_URL:zookeeper://127.0.0.1:2181}
+  protocols:
+    dubbo-rpc:
+      name: dubbo
+      port: ${PORT:9001}
+  scan:
+    base-packages: cn.iris.cloud.chat.access.connect.service
+monitor:
+    port: 9009

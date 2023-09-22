@@ -1,0 +1,17 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: chatmsg
+    version: 1.0.0
+dubbo:
+  protocols:
+    dubbo-rpc:
+      name: dubbo
+      port: ${PORT:9011}
+  registry:
+    address: ${REG_URL:zookeeper://127.0.0.1:2181}
+  scan:
+    base-packages: cn.iris.cloud.chat.msg.service
+monitor:
+  port: 9019

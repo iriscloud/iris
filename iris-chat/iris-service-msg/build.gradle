@@ -1,0 +1,14 @@
+configurations {
+    all {
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+        exclude group: 'javax.validation', module: 'com.springsource.javax.validation'
+    }
+}
+dependencies {
+    api project(':iris-chat:iris-message-api')
+    api project(':iris-boot:iris-spring-starter')
+    api project(':iris-boot:iris-dubbo-starter')
+    api group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: springboot_version
+
+}

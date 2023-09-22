@@ -1,0 +1,19 @@
+server:
+  port: 1880
+spring:
+  application:
+    name: navi
+    group: crp
+    version: 1.0.0
+  profiles:
+    active: ${tenv:dev}
+monitor:
+  name: app
+  centerUrl: http://127.0.0.1:18500/v1/agent/service/register
+  #  ip: 127.0.0.1
+  port: 18091
+  tag:
+    - service:navi
+    - cluster:prod
+    - dc:bj
+    - nodename:navi1
